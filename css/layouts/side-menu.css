@@ -7,9 +7,14 @@ body {
     height: auto;
 }
 
+.pure-img-border {
+    max-width: 95%;
+    height: auto;
+}   
+
 /*
-Add transition to containers so they can push in and out.
-*/
+   Add transition to containers so they can push in and out.
+ */
 #layout,
 #menu,
 .menu-link {

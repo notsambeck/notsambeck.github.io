@@ -1,83 +1,91 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sam Beck, product developer / data scientist / designer, Portland, OR">
-    <title>not sam beck</title>
-    
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-    
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Sam Beck, data-oriented product developer / designer, Portland, OR">
+	<title>(not) sam beck</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+
+	<!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
         <![endif]-->
-    <!--[if gt IE 8]><!-->
+	<!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/side-menu.css">
         <!--<![endif]-->
-  </head>
-  <body>
+    </head>
+    <body>
 
 
 
 
-    <div id="layout">
-      <!-- Menu toggle -->
-      <a href="#menu" id="menuLink" class="menu-link">
-        <!-- Hamburger icon for mobile -->
-        <span></span>
-      </a>
+	<div id="layout">
+	    <!-- Menu toggle -->
+	    <a href="#menu" id="menuLink" class="menu-link">
+		<!-- Hamburger icon for mobile -->
+		<span></span>
+	    </a>
 
-      <div id="menu">
-        <div class="pure-menu">
-          <ul class="pure-menu-list">
-            <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="projects.html" class="pure-menu-link">Projects</a></li>
+	    <div id="menu">
+		<div class="pure-menu">
+		    <ul class="pure-menu-list">
+			<li class="pure-menu-item"><a href="index.html" class="pure-menu-link">home</a></li>
+			<li class="pure-menu-item"><a href="projects.html" class="pure-menu-link">projects</a></li>
+			<li class="pure-menu-item"><a href="media.html" class="pure-menu-link">media</a></li>
+			<li class="pure-menu-item"><a href="https://www.github.com/notsambeck" class="pure-menu-link">github</a></li>
+			<li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">contact</a></li>
+		    </ul>
+		</div>
+	    </div>
 
-            <li class="pure-menu-item"><a href="misc.html" class="pure-menu-link">Misc</a></li>
+	    <div id="main">
+		<div class="header">
+		    <h1>(not) sam beck</h1>
+		    <h2>Data Oriented Product Designer / Developer</h2>
+		</div>
 
-            <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+		<div class="content">
+		    <h2 class="content-subhead">Short Version</h2>
+		    <p>
+			I like to figure stuff out and build it.
+		    </p>
+		    <p>
+			Currently super excited about machine learning/computer vision.
+		    </p>
+		    <br>
 
-      <div id="main">
-        <div class="header">
-          <h1>(not) Sam Beck</h1>
-          <h2>Product Designer / Developer / Data Scientist</h2>
-        </div>
+		    <div class="pure-g">
+			<div class="pure-u-1-4">
+			    <img class="pure-img-responsive" src="media/sift_1.png" alt="SIFT image">
+			</div>
+			<div class="pure-u-1-4">
+			    <img class="pure-img-responsive" src="media/sift_2.png" alt="SIFT image">
+			</div>
+			<div class="pure-u-1-4">
+			    <img class="pure-img-responsive" src="media/sift_3.png" alt="SIFT image">
+			</div>
+			<div class="pure-u-1-4">
+			    <img class="pure-img-responsive" src="media/sift_4.png" alt="SIFT image">
+			</div>
+		    </div>
 
-        <div class="content">
-          <h2 class="content-subhead">Short Version</h2>
-          <p>
-	    I like to figure stuff out and build it.
-          </p>
-	  <br>
+		    <h2 class="content-subhead">Long version</h2>
+		    <p>
+			I've been working in product development since 2010, mostly in hardware. I founded a company called Blueshift, building supercapacitor-powered portable speakers in Portland. Launched the company and shipped a few hundred pieces - learned a lot along the way.
+		    </p>
+		    <p>
+			More recently, I've been doing consulting work (marketing and web design) and working on coding projects in machine learning / computer vision / data science. Working primarily in Python.
+		    </p>
+		    <p>
+			Looking for next big thing to work on, I'd love to hear what you're up to!
+		    </p>
 
-          <div class="pure-g">
-            <div class="pure-u-1-4">
-              <img class="pure-img-responsive" src="media/sift_1.png" alt="SIFT image">
-            </div>
-            <div class="pure-u-1-4">
-	      <img class="pure-img-responsive" src="media/sift_2.png" alt="SIFT image">
-            </div>
-            <div class="pure-u-1-4">
-	      <img class="pure-img-responsive" src="media/sift_3.png" alt="SIFT image">
-            </div>
-            <div class="pure-u-1-4">
-	      <img class="pure-img-responsive" src="media/sift_4.png" alt="SIFT image">
-            </div>
-          </div>
+		</div>
+	    </div>
+	</div>
 
-	  <h2 class="content-subhead">Long version</h2>
-          <p>
-            long version of above.
-          </p>
+	<script src="js/ui.js"></script>
 
-        </div>
-      </div>
-    </div>
-
-    <script src="js/ui.js"></script>
-
-  </body>
+    </body>
 </html>
