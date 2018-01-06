@@ -1,5 +1,6 @@
 body {
     color: #777;
+    font: arial, sans-serif;
 }
 
 .spacer {
@@ -16,6 +17,14 @@ body {
     max-width: 95%;
     height: auto;
 }   
+
+.project {
+    padding-bottom: 50px;
+}
+
+a {
+    color: #348
+}
 
 /*
    Add transition to containers so they can push in and out.
@@ -66,8 +75,8 @@ The content `<div>` is where all your content goes.
  }
     .header h1 {
         margin: 0.2em 0;
-        font-size: 3em;
-        font-weight: 300;
+        font-size: 2em;
+        font-weight: 600;
     }
      .header h2 {
         font-weight: 300;
